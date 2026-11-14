@@ -80,7 +80,7 @@ The **SHAP analysis** identified `airspeed_mean` as the most influential predict
 
 ## **Project Merit**
 
-The primary contribution of this project is that it has incorporated **arrival airport** and **runway** into the predictive model as contextual features. This distinguishes it from prior studies that relied primarily on flight-specific characteristics. The inclusion of the two factors above improved prediction performance by **about 10%**.
+The primary contribution of this project is that it has incorporated **arrival airport** and **runway** into the predictive model as contextual features. This distinguishes it from prior studies that relied primarily on flight-specific characteristics, although the inclusion of arrival airport and runway features improved predictive performance by only **about 2%**.
 
 Another contribution of this project is the application of **SHAP (SHapley Additive exPlanations)** to interpret the final XGBoost model and identify the factors that contribute to anomaly predictions. Rather than evaluating the model solely on predictive performance, the SHAP analysis provides insight into the **relative importance and direction of influence of individual predictors** on the model output. This enables the interpretability of the anomaly-detection framework and provides a better understanding of the flight characteristics and operational factors associated with predicted anomalous behavior.
 
