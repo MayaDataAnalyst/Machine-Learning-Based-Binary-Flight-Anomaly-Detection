@@ -137,6 +137,13 @@ It should be noted that the flap position (`flap_pos`) variable and its derived 
 
 
 ---
+
+## **FLOWCHART OF THE BINARY FLIGHT ANOMALY CLASSIFICATION FRAMEWORK**
+
+<img width="1122" height="1402" alt="Machine Learning Flowchart Overview" src="https://github.com/user-attachments/assets/88422624-cb75-4c45-ba6b-704a701dae96" />
+
+
+---
 # **RECOMMENDATIONS FOR FUTURE WORK**
 
 Future work could benefit from incorporating additional **airport-specific operational characteristics** into the prediction models, such as airport traffic volume, number of runways, runway configuration, and weather conditions. These factors may influence the likelihood and characteristics of flight anomalies. In addition, incorporating **aircraft-specific characteristics**, such as aircraft model, aircraft age, and engine type, may further improve model performance, as different aircraft types may exhibit different approach dynamics, deceleration behavior, and flap-deployment procedures.
